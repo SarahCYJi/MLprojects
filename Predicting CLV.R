@@ -1,6 +1,10 @@
 #Customer Lifetime Value Analysis
 #Thank you my teammates: Summer Fu, Aastha Thakkar, Ning Xu and Yifan Zhou
 
+#Our core task for this report is to use supervised prediction models and our target is the Customer Lifetime Value($) for an Auto Insurance company. 
+#We use data mining methods such as linear regression, stepwise regression, neural nets, support vector machine, lasso and post lasso to support this analysis. 
+#We use K-fold Cross-Validation to pick the best final model and evaluate its robustness based on the out of sample R2 from the testing dataset.
+
 #We obtained the dataset from Kaggle. https://www.kaggle.com/pankajjsh06/ibm-watson-marketing-customer-value-data
 
 library(tidyverse)
